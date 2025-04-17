@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone from GitHub') {
             steps {
-                git 'https://github.com/Vamshi420/maven-web-app.git'
+                git 'https://github.com/Vamshi420/spring-petclinic.git'
             }
         }
         stage('Build with Maven') {
